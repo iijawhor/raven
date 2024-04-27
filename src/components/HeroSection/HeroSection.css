@@ -1,0 +1,31 @@
+.heroSection {
+  height: 100vh;
+  transition: 0.3s;
+}
+.heroSection::before {
+  content: "";
+  background-image: url("https://w0.peakpx.com/wallpaper/163/552/HD-wallpaper-pedro-perestrello-male-model-black-stairs-man-fashion.jpg");
+  background-position: center center;
+  background-size: cover; /* Optional: adjust as needed */
+  position: absolute; /* Ensures the pseudo-element covers the parent element */
+  top: 0; /* Adjust as needed */
+  left: 0; /* Adjust as needed */
+  width: 100%; /* Ensures the pseudo-element covers the parent element */
+  min-height: 100%; /* Ensures the pseudo-element covers the parent element */
+  z-index: -1; /* Ensure the pseudo-element stays behind the content */
+  transition: 0.3s;
+}
+.heroSection::after {
+  content: "";
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Adjust the opacity (0.5) to make it darker or lighter */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
