@@ -1,6 +1,8 @@
 .heroSection {
   height: 100vh;
-  transition: 0.3s;
+  transition: 3s;
+}
+.heroSectionDescription {
 }
 .heroSection::before {
   content: "";
@@ -13,7 +15,6 @@
   width: 100%; /* Ensures the pseudo-element covers the parent element */
   min-height: 100%; /* Ensures the pseudo-element covers the parent element */
   z-index: -1; /* Ensure the pseudo-element stays behind the content */
-  transition: 0.3s;
 }
 .heroSection::after {
   content: "";

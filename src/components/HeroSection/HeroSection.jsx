@@ -3,7 +3,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <section className="heroSection flex justify-center items-center relative">
-      <div className="flex flex-col gap-3 z-10 text-center items-center text-white w-3/5">
+      <div className="delay-300 flex flex-col gap-3 z-10 text-center items-center text-white w-3/5">
         <p className="text-sm tracking-widest text-white">CASUAL & EVERYDAY</p>
         <h1 className="font-Cormorant tracking-wide italic text-7xl">
           Effortlessly Blend <br /> Comfort &amp; Style!

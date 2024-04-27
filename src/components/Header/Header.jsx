@@ -15,7 +15,7 @@ function Header() {
     navigate(path);
   };
   return (
-    <header className="w-full absolute w-full flex h-fit bg-none max-h-20 items-center">
+    <header className="w-full absolute w-full flex h-fit bg-none max-h-20 items-center z-10">
       {toggleMenu && (
         <div className="absolute w-screen h-screen top-0">
           <HeaderMenu
