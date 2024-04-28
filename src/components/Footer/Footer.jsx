@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <section className="py-10 relative">
-      <div className="flex justify-evenly md:flex-row flex-col items-center md:gap-0 gap-8 ">
+      <div className="flex justify-evenly md:flex-row flex-wrap items-center md:gap-0 gap-8 ">
         <div className="flex flex-col gap-5 text-center">
           <h1 className="text-lg font-Cormorant italic tracking-wide font-semibold">
             Menu
