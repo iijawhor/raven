@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className="py-10 relative">
+    <section className="py-5 relative">
       <div className="flex justify-evenly md:flex-row flex-wrap items-center md:gap-0 gap-8 ">
         <div className="flex flex-col gap-5 text-center">
           <h1 className="text-lg font-Cormorant italic tracking-wide font-semibold">
@@ -80,6 +80,12 @@ function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+      <hr className="border border-slate-100" />
+      <div className="p-3 w-full pt-5">
+        <p className="text-sm w-full text-gray-600 text-center tracking-wide ">
+          Copyright 2024 Clothing Store | Powered by Raven
+        </p>
       </div>
     </section>
   );
